@@ -1,0 +1,242 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+    font-size: 0.9em;
+    line-height: 1.5em;
+}
+
+
+/* phần logo, tìm kiếm, giỏ hàng*/
+#main {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+#title   {
+    text-align: center;
+    font-size: 25px;
+}
+#title ul li{
+    display: inline;
+    padding: 0 100px 0 30px;
+}
+#title ul li a{
+    text-decoration: none;
+
+}
+
+
+
+.shop {
+    
+    margin:0;
+    padding: 15px 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    padding-left: 160px;
+}
+
+
+
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+  }
+.search {
+    width: 100%;
+  }
+.searchTerm {
+    width: 20%;
+    border: 3px solid #000000;
+    padding: 14px 0 4px 0;
+    border-radius: 5px 5px 5px 5px;
+  }
+.searchButton {
+    width: 4%;
+    border: 3px solid #000000;
+    border-radius: 5px 5px 5px 5px;
+    background: #000000;
+    border-radius: 5px 5px 5px 5px;
+  }
+.find {
+  color: ivory;
+  font-size: 27px;
+  }
+  
+
+.cart  a i{
+    font-size: 50px;
+    color: black;
+    padding-top: 20PX;
+    }
+/* end phần logo, tìm kiếm, giỏ hàng*/
+
+/* phần menu*/
+#banner{
+    float: right;
+}
+.dropbtn {
+    color: rgb(0, 0, 0);
+    padding: 10px 40px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+  }
+  .dropbtn a i{
+      margin-left: -4%;
+      font-size: 30px;
+  } 
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+.dropdown a {
+      color: black;
+      text-decoration: none;
+      font-size: 20px;
+      padding: 10px 15px;
+      text-align: center;
+  }
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000000;
+    min-width: 120px;
+   
+  }
+  
+.dropdown-content a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  #banner a:hover {
+    color: #9e0909;
+}
+/* end phần menu*/
+
+/*phần định dạng content và right*/
+.dinhdang {
+    width:97%;
+    background: white;
+    border-radius:5px;
+    border-width: 1px;
+    border-style: solid;
+}
+.dinhdang h2 {
+    margin: 0;
+    padding: 5px 15px;
+    font-size: 1.4em;
+    color: #000000;
+    text-align: center;
+}
+/*end phần định dạng content và right*/
+/*phần content*/
+#maincontent {
+    float: right;
+    width: 100%;
+}
+#content {
+    margin-right: 300px;
+}
+#noidung {
+    padding: 15px;
+    text-align: justify;
+    background-color: #000000;
+}
+#noidung img {
+    
+    height: 256px;
+    width: 192px;
+}
+.zoom{
+    display: inline-block;
+    padding: 25px 25px;
+    transition: transform 0.2s;
+}
+
+.zoom:hover {
+    transform: scale(1.5); 
+}
+   
+.zoom img:hover {
+    
+    filter:blur(2px)
+
+    
+  }
+
+
+
+  
+li.zoom a{
+    text-decoration: none;
+
+}
+
+
+li.zoom span {
+    display: none;
+    background-color: rgb(44, 44, 44);
+
+}
+li.zoom:hover span {
+    display:block;
+    margin-top: -50px;
+    top:-100px;
+    text-align: center;
+    position: relative;
+    color:white;
+    
+}
+
+
+
+
+
+
+
+
+/*end phần content*/
+/*phần right*/
+#right {
+    float: right;
+    margin-right:-100%;
+    width: 300px;
+   
+    
+}
+#menuright {
+   
+    padding:15px 0px 15px 24px;
+    line-height: 1.8em;
+    background-color:rgb(206, 9, 9) ;
+}
+
+#menuright img {
+    
+    height: 256px;
+    width: 192px;
+}
+
+/*end phần right*/
+#footer {
+    clear:both;
+    background: #ffffff;
+    color:black;
+    padding: 20px;
+    text-align: center;
+}
+
+#footer i {
+    font-size: 30px;
+}
